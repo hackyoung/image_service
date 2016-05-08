@@ -1,0 +1,7 @@
+{
+    "name" : "hackyoung/lenoo-user",
+    "require" : {
+        "hackyoung/leno" : "dev-master",
+        "leno/view" : "dev-master"
+    }
+}
