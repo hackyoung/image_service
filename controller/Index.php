@@ -12,6 +12,11 @@ class Index extends \Leno\Controller
      */
     public function index($id)
     {
+        try {
+            (new \Leno\Validator(['type' => 'uuid'], 'image_id'))->check($id);
+        } catch(\Exception $e) {
+            throw new \Leno\Http\Exception(400, $e->getMessage());
+        }
         $opt = $this->inputs([
             'w' => ['type' => 'int', 'required' => false, 'extra' => ['min' => 0]],
             'h' => ['type' => 'int', 'required' => false, 'extra' => ['min' => 0]],
