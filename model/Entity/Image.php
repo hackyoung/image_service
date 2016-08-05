@@ -13,7 +13,7 @@ class Image extends \Model\Entity
 
     public static $attributes = [
         'image_id' => ['type' => 'uuid'],
-        'app_id' => ['type' => 'string'],
+        'app_id' => ['type' => 'uuid', 'default' => '16377682-dd76-4a82-a8ab-a6827fd25e7a'],
         'name' => ['type' => 'string', 'extra' => ['max_length' => 128]],
         'md5' => ['type' => 'string', 'extra' => ['max_length' => 128]],
         'path_file' => ['type' => 'string', 'extra' => ['max_length' => 128]],
@@ -21,26 +21,30 @@ class Image extends \Model\Entity
         'height' => ['type' => 'int', 'extra' => ['min' => 0]],
         'size' => ['type' => 'int', 'extra' => ['min' => 0]],
         'type' => ['type' => 'enum', 'extra' => [
-            'enum_list' => [self::TYPE_JPG, self::TYPE_JPEG, self::TYPE_PNG, self::TYPE_GIF]
+            self::TYPE_JPG, self::TYPE_JPEG, self::TYPE_PNG, self::TYPE_GIF
         ]],
         'created' => ['type' => 'datetime'],
-        'updated' => ['type' => 'datetime', 'required' => false],
-        'deleted' => ['type' => 'datetime', 'required' => false],
+        'updated' => ['type' => 'datetime', 'is_nullable' => true],
+        'deleted' => ['type' => 'datetime', 'is_nullable' => true],
     ];
 
     public static $primary = 'image_id';
 
-    public static $table = 'image';
+    public static $table = 'leno_image';
+
+    public static $unique = [
+        'image_md5_unique' => ['md5']
+    ];
 
     private $base_dir = ROOT . '/image';
 
-    public function addNew($appid, $file)
+    public function getFromFile($file)
     {
         $md5 = md5_file($file['tmp_name']);
-        $here = self::selector()->byEqMd5($md5)
+        $here = self::selector()->byMd5($md5)
             ->findOne();
         if($here instanceof self) {
-            return $here->getImageId();
+            return $here;
         }
         $dir = $this->base_dir . '/' . date('Y/m/d');
         if(!is_dir($dir)) {
@@ -52,7 +56,6 @@ class Image extends \Model\Entity
         }
         list($width, $height, $type, $attr) = array_values(getimagesize($this->getPathFile()));
         $this->setWidth($width)
-            ->setAppId($appid)
             ->setHeight($height)
             ->setType($file['type'])
             ->setSize($file['size'])
@@ -60,7 +63,7 @@ class Image extends \Model\Entity
             ->setMd5($md5)
             ->setCreated(new \Datetime)
             ->save();
-        return $this->getImageId();
+        return $this;
     }
 
     public function resize($w = null, $h = null)
