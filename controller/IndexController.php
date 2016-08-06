@@ -2,15 +2,11 @@
 namespace Controller;
 
 use Leno\Type\Mysql\UuidType;
+use Model\Entity\Image;
+use Leno\Http\Exception as HttpException;
 
 class IndexController extends \Leno\Controller
 {
-
-    public function initialize()
-    {
-        logger()->err('here');
-    }
-
     /**
      * @description 获取图片
      *
@@ -25,17 +21,20 @@ class IndexController extends \Leno\Controller
         try {
             (new UuidType)->check($id);
         } catch(\Exception $e) {
-            throw new \Leno\Http\Exception(400, $e->getMessage());
+            return $this->response->withStatus(404);
         }
         $rule = ['type' => 'int', 'required' => false, 'extra' => [
             'min' => 0
         ]];
         $width = $this->input('w', $rule);
         $height = $this->input('h', $rule);
-        $image = \Model\Entity\Image::findOrFail($id);
-        return $this->response->withHeader(
-            'Content-Type', $image->getType()
-        )->write($image->resize($width, $height));
+        try {
+            $image = \Model\Entity\Image::findOrFail($id);
+        } catch (\Leno\Exception $ex) {
+            return $this->response->withStatus(404);
+        }
+        return $this->response->withHeader( 'Content-Type', $image->getType())
+            ->write($image->resize($width, $height));
     }
 
     /**
@@ -48,20 +47,16 @@ class IndexController extends \Leno\Controller
      */
     public function add()
     {
+        $response = $this->response->withHeader('Access-Control-Allow-Origin', 'http://boohub.com')
+            ->withHeader('Access-Control-Allow-Methods', 'POST')
+            ->withHeader('Access-Control-Allow-Headers', 'x-requested-with,content-type');
         try {
             foreach($_FILES as $file) {
-                $image = (new \Model\Entity\Image)->getFromFile($file);
+                $image = (new Image)->getFromFile($file);
             }
         } catch(\Exception $ex) {
-            return $this->response->withHeader('Access-Control-Allow-Origin', '*')  
-                ->withStatus(500)
-                ->withHeader('Access-Control-Allow-Methods', 'POST')
-                ->withHeader('Access-Control-Allow-Headers', 'x-requested-with,content-type')
-                ->write($ex->getMessage());
+            return $response->withStatus(500)->write($ex->getMessage());
         }
-        return $this->response->withHeader('Access-Control-Allow-Origin', '*')  
-            ->withHeader('Access-Control-Allow-Methods', 'POST')
-            ->withHeader('Access-Control-Allow-Headers', 'x-requested-with,content-type')
-            ->write(json_encode($image));
+        return $response->write(json_encode($image));
     }
 }
