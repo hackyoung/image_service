@@ -1,119 +1,58 @@
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: image/jpeg [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: size's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: name's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: md5's foreign_by not found [] []
-[2016-08-05 18:10:06] default.ERROR: Leno\Exception: created's foreign_by not found [] []
-[2016-08-05 18:10:28] default.ERROR: Leno\Exception: image_id's foreign_by not found [] []
-[2016-08-05 18:11:39] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:11:39] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:15:22] default.ERROR: here [] []
-[2016-08-05 18:15:22] default.ERROR: Leno\Exception: image_id's foreign_by not found [] []
-[2016-08-05 18:18:49] default.ERROR: here [] []
-[2016-08-05 18:19:38] default.ERROR: here [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:38] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: here [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:43] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: here [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:47] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:19:54] default.ERROR: here [] []
-[2016-08-05 18:19:54] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:54] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:19:54] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:19:54] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:19:54] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:24:05] default.ERROR: here [] []
-[2016-08-05 18:24:05] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:05] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:24:05] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:05] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:24:05] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:24:09] default.ERROR: here [] []
-[2016-08-05 18:24:09] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:09] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:24:09] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:09] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:24:09] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:24:12] default.ERROR: here [] []
-[2016-08-05 18:24:12] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:12] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:24:12] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:24:12] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:24:12] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:06] default.ERROR: here [] []
-[2016-08-05 18:29:06] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:06] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:06] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:06] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:06] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:08] default.ERROR: here [] []
-[2016-08-05 18:29:08] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:08] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:08] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:08] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:08] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: here [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: size's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: name's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: md5's foreign_by not found [] []
-[2016-08-05 18:29:15] default.ERROR: Leno\Exception: created's foreign_by not found [] []
-[2016-08-05 18:29:29] default.ERROR: here [] []
-[2016-08-05 18:29:29] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:29] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: here [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:34] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: here [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:29:38] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:30:10] default.ERROR: here [] []
-[2016-08-05 18:30:10] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:30:10] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:30:10] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:30:10] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:30:10] default.ERROR: Leno\Exception: height's foreign_by not found [] []
-[2016-08-05 18:30:15] default.ERROR: here [] []
-[2016-08-05 18:30:15] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:30:15] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
-[2016-08-05 18:30:15] default.ERROR: Leno\Exception: type's foreign_by not found [] []
-[2016-08-05 18:30:15] default.ERROR: Leno\Exception: width's foreign_by not found [] []
-[2016-08-05 18:30:15] default.ERROR: Leno\Exception: height's foreign_by not found [] []
+[2016-08-08 10:51:49] default.ERROR: here [] []
+[2016-08-08 10:51:49] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:51:49] default.ERROR: normal error:Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found in /var/www/html/image_service/vendor/hackyoung/leno/src/ORM/Entity.php:458
+Stack trace:
+#0 /var/www/html/image_service/controller/IndexController.php(35): Leno\ORM\Entity::findOrFail('09c3aa89-0b21-4...')
+#1 [internal function]: Controller\IndexController->index('09c3aa89-0b21-4...')
+#2 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Target.php(46): ReflectionMethod->invokeArgs(Object(Controller\IndexController), Array)
+#3 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(160): Leno\Routing\Target->invoke('index', Object(Controller\IndexController))
+#4 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(133): Leno\Routing\Router->invoke(Object(Leno\Routing\Target))
+#5 /var/www/html/image_service/vendor/hackyoung/leno/src/Worker.php(60): Leno\Routing\Router->route()
+#6 /var/www/html/image_service/index.php(29): Leno\Worker->execute()
+#7 {main} [] []
+[2016-08-08 10:51:54] default.ERROR: here [] []
+[2016-08-08 10:51:54] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:51:54] default.ERROR: normal error:Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found in /var/www/html/image_service/vendor/hackyoung/leno/src/ORM/Entity.php:458
+Stack trace:
+#0 /var/www/html/image_service/controller/IndexController.php(35): Leno\ORM\Entity::findOrFail('09c3aa89-0b21-4...')
+#1 [internal function]: Controller\IndexController->index('09c3aa89-0b21-4...')
+#2 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Target.php(46): ReflectionMethod->invokeArgs(Object(Controller\IndexController), Array)
+#3 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(160): Leno\Routing\Target->invoke('index', Object(Controller\IndexController))
+#4 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(133): Leno\Routing\Router->invoke(Object(Leno\Routing\Target))
+#5 /var/www/html/image_service/vendor/hackyoung/leno/src/Worker.php(60): Leno\Routing\Router->route()
+#6 /var/www/html/image_service/index.php(29): Leno\Worker->execute()
+#7 {main} [] []
+[2016-08-08 10:52:13] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:52:14] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:52:45] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:52:45] default.ERROR: Leno\Http\Exception: Not Found [] []
+[2016-08-08 10:52:45] default.ERROR: normal error:Leno\Http\Exception: Not Found in /var/www/html/image_service/controller/IndexController.php:34
+Stack trace:
+#0 [internal function]: Controller\IndexController->index('09c3aa89-0b21-4...')
+#1 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Target.php(46): ReflectionMethod->invokeArgs(Object(Controller\IndexController), Array)
+#2 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(160): Leno\Routing\Target->invoke('index', Object(Controller\IndexController))
+#3 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(133): Leno\Routing\Router->invoke(Object(Leno\Routing\Target))
+#4 /var/www/html/image_service/vendor/hackyoung/leno/src/Worker.php(60): Leno\Routing\Router->route()
+#5 /var/www/html/image_service/index.php(29): Leno\Worker->execute()
+#6 {main} [] []
+[2016-08-08 10:52:46] default.ERROR: Leno\ORM\Exception\EntityNotFoundException: Entity: Model\Entity\Image[09c3aa89-0b21-473c-af89-d2948c476066] Not Found [] []
+[2016-08-08 10:52:46] default.ERROR: Leno\Http\Exception: Not Found [] []
+[2016-08-08 10:52:46] default.ERROR: normal error:Leno\Http\Exception: Not Found in /var/www/html/image_service/controller/IndexController.php:34
+Stack trace:
+#0 [internal function]: Controller\IndexController->index('09c3aa89-0b21-4...')
+#1 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Target.php(46): ReflectionMethod->invokeArgs(Object(Controller\IndexController), Array)
+#2 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(160): Leno\Routing\Target->invoke('index', Object(Controller\IndexController))
+#3 /var/www/html/image_service/vendor/hackyoung/leno/src/Routing/Router.php(133): Leno\Routing\Router->invoke(Object(Leno\Routing\Target))
+#4 /var/www/html/image_service/vendor/hackyoung/leno/src/Worker.php(60): Leno\Routing\Router->route()
+#5 /var/www/html/image_service/index.php(29): Leno\Worker->execute()
+#6 {main} [] []
+[2016-08-08 10:54:27] default.ERROR: Leno\Exception: type's foreign_by not found [] []
+[2016-08-08 10:54:27] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
+[2016-08-08 10:54:27] default.ERROR: Leno\Exception: type's foreign_by not found [] []
+[2016-08-08 10:54:27] default.ERROR: Leno\Exception: width's foreign_by not found [] []
+[2016-08-08 10:54:27] default.ERROR: Leno\Exception: height's foreign_by not found [] []
+[2016-08-08 10:54:32] default.ERROR: Leno\Exception: type's foreign_by not found [] []
+[2016-08-08 10:54:32] default.ERROR: Leno\Exception: path_file's foreign_by not found [] []
+[2016-08-08 10:54:32] default.ERROR: Leno\Exception: type's foreign_by not found [] []
+[2016-08-08 10:54:32] default.ERROR: Leno\Exception: width's foreign_by not found [] []
+[2016-08-08 10:54:32] default.ERROR: Leno\Exception: height's foreign_by not found [] []
