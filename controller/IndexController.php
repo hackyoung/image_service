@@ -22,7 +22,7 @@ class IndexController extends \Leno\Controller
         try {
             (new UuidType)->check($id);
         } catch(\Exception $e) {
-            return $this->response->withStatus(404);
+            throw new HttpException(404);
         }
         $rule = ['type' => 'int', 'required' => false, 'extra' => [
             'min' => 0
@@ -32,7 +32,7 @@ class IndexController extends \Leno\Controller
         try {
             $image = \Model\Entity\Image::findOrFail($id);
         } catch (\Leno\Exception $ex) {
-            return $this->response->withStatus(404);
+            throw new HttpException(404);
         }
         return $this->response->withHeader( 'Content-Type', $image->getType())
             ->write($image->resize($width, $height));
