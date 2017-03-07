@@ -4,6 +4,7 @@ namespace Controller;
 use Leno\Type\Mysql\UuidType;
 use Model\Entity\Image;
 use Leno\Http\Exception as HttpException;
+use Leno\Database\Row\Selector as RowSelector;
 
 class IndexController extends \Leno\Controller
 {
@@ -47,16 +48,20 @@ class IndexController extends \Leno\Controller
      */
     public function add()
     {
-        $response = $this->response->withHeader('Access-Control-Allow-Origin', 'http://boohub.com')
+        $response = $this->response->withHeader('Access-Control-Allow-Origin', '*')
             ->withHeader('Access-Control-Allow-Methods', 'POST')
             ->withHeader('Access-Control-Allow-Headers', 'x-requested-with,content-type');
+        $images = [];
+        RowSelector::beginTransaction();
         try {
             foreach($_FILES as $file) {
-                $image = (new Image)->getFromFile($file);
+                $images[] = Image::getFromFile($file)->save();
             }
+            RowSelector::commitTransaction();
         } catch(\Exception $ex) {
+            RowSelector::rollback();
             return $response->withStatus(500)->write($ex->getMessage());
         }
-        return $response->write(json_encode($image));
+        return $response->write(json_encode(count($images) == 1 ? $images[0] : $images));
     }
 }

@@ -1,4 +1,5 @@
-vendor
+tmp/
+vendor/
 image/
-config
+config/
 *.swp

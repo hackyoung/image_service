@@ -36,9 +36,9 @@ class Image extends \Model\Entity
         'image_md5_unique' => ['md5']
     ];
 
-    private $base_dir = ROOT . '/image';
+    private static $base_dir = ROOT . '/image';
 
-    public function getFromFile($file)
+    public static function getFromFile($file)
     {
         $md5 = md5_file($file['tmp_name']);
         $here = self::selector()->byMd5($md5)
@@ -46,24 +46,24 @@ class Image extends \Model\Entity
         if($here instanceof self) {
             return $here;
         }
-        $dir = $this->base_dir . '/' . date('Y/m/d');
+        $dir = self::$base_dir . '/' . date('Y/m/d');
+
         if(!is_dir($dir)) {
             mkdir($dir, 0755, true);
         }
-        $this->setPathFile($dir . '/' . $md5);
-        if(!move_uploaded_file($file['tmp_name'], $this->getPathFile())) {
+        $image = new self;
+        $image->setPathFile($dir . '/' . $md5);
+        if(!move_uploaded_file($file['tmp_name'], $image->getPathFile())) {
             throw new \Leno\Exception('Move File Error');
         }
-        list($width, $height, $type, $attr) = array_values(getimagesize($this->getPathFile()));
-        $this->setWidth($width)
+        list($width, $height, $type, $attr) = array_values(getimagesize($image->getPathFile()));
+        return $image->setWidth($width)
             ->setHeight($height)
             ->setType($file['type'])
             ->setSize($file['size'])
             ->setName($file['name'])
             ->setMd5($md5)
-            ->setCreated(new \Datetime)
-            ->save();
-        return $this;
+            ->setCreated(new \Datetime);
     }
 
     public function resize($w = null, $h = null)
